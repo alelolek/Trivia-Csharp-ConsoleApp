@@ -1,0 +1,222 @@
+[
+    {
+        "Id": 1,
+        "Description": "¿Cuál de las siguientes civilizaciones construyó las famosas pirámides de Giza?",
+        "Category": 1,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Civilización egipcia"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Civilización maya"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Civilización romana"
+            }
+        ]
+    },
+    {
+        "Id": 2,
+        "Description": "¿Qué evento histórico marcó el fin de la Segunda Guerra Mundial en Europa?",
+        "Category": 1,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "El Desembarco de Normandía El Desembarco de Normandía"
+            },
+            {
+                "Id": 2,
+                "IsValid": true,
+                "Description": "La rendición de Alemania"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "La caída del Muro de Berlín"
+            }
+        ]
+    },
+    {
+        "Id": 3,
+        "Description": "¿En qué año tuvo lugar la Revolución Francesa?",
+        "Category": 1,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "1776"
+            },
+            {
+                "Id": 2,
+                "IsValid": true,
+                "Description": "1789"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "1804"
+            }
+        ]
+    },
+    {
+        "Id": 4,
+        "Description": "¿Cuál de los siguientes líderes fue el fundador de la Unión Soviética?",
+        "Category": 1,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "Joseph Stalin"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Nikita Khrushchev"
+            },
+            {
+                "Id": 3,
+                "IsValid": true,
+                "Description": "Vladimir Lenin"
+            }
+        ]
+    },
+    {
+        "Id": 5,
+        "Description": "¿Cuál de las siguientes civilizaciones antiguas se desarrolló en el valle del río Indo?",
+        "Category": 1,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Civilización del valle del Indo"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Civilización mesopotámica"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Civilización egipcia"
+            }
+        ]
+    },
+    {
+        "Id": 6,
+        "Description": "¿Cuál de los siguientes lenguajes de programación se utiliza comúnmente para el desarrollo de aplicaciones móviles en iOS?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "Java"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "C#"
+            },
+            {
+                "Id": 3,
+                "IsValid": true,
+                "Description": "Swift"
+            }
+        ]
+    },
+    {
+        "Id": 7,
+        "Description": "¿Qué protocolo se utiliza para transferir datos desde un servidor web a un navegador web?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "HTTP"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "FTP"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "SMTP"
+            }
+        ]
+    },
+    {
+        "Id": 8,
+        "Description": "¿Cuál de los siguientes es un lenguaje de programación orientado a objetos?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "HTML"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "SQL"
+            },
+            {
+                "Id": 3,
+                "IsValid": true,
+                "Description": "Python"
+            }
+        ]
+    },
+    {
+        "Id": 9,
+        "Description": "¿Qué es un LOOP en programación?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Una estructura de control que repite un bloque de código"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un error en el código"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Una función para ingresar datos"
+            }
+        ]
+    },
+    {
+        "Id": 10,
+        "Description": "¿Qué es Git?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "Un lenguaje de programación"
+            },
+            {
+                "Id": 2,
+                "IsValid": true,
+                "Description": "Un sistema de control de versiones"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un sistema de gestión de bases de datos"
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+C:\Csharp\Trivia\CrossCutting\bin\Debug\net6.0\CrossCutting.deps.json
+C:\Csharp\Trivia\CrossCutting\bin\Debug\net6.0\CrossCutting.dll
+C:\Csharp\Trivia\CrossCutting\bin\Debug\net6.0\ref\CrossCutting.dll
+C:\Csharp\Trivia\CrossCutting\bin\Debug\net6.0\CrossCutting.pdb
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.csproj.AssemblyReference.cache
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.AssemblyInfoInputs.cache
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.AssemblyInfo.cs
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.csproj.CoreCompileInputs.cache
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.dll
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\ref\CrossCutting.dll
+C:\Csharp\Trivia\CrossCutting\obj\Debug\net6.0\CrossCutting.pdb
