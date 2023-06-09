@@ -1,6 +1,6 @@
 # Aplicación de Trivia en Consola
 
-![Diagrama de Arquitectura](architecture_diagram.png)
+![Diagrama de Arquitectura](https://github.com/alelolek/Trivia-Csharp-ConsoleApp/blob/main/DiagramaDeArquitectura.png)
 
 ## Descripción general
 La Aplicación de Trivia en Consola es un proyecto en C# .NET 6 diseñado para proporcionar una experiencia de juego de trivia en un entorno de consola. Sigue los principios de la Programación Orientada a Objetos (POO) y está construido con una arquitectura en capas, que consiste en múltiples capas para separar las responsabilidades y mejorar la mantenibilidad.
