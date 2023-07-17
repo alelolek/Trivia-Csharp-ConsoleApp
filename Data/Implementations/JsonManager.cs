@@ -10,8 +10,7 @@ namespace Data.Implementations
         public List<T> ReadFile<T>(string filename)
         {
             var fullPath = Path.Combine(basePath, filename);
-            Encoding codification = Encoding.GetEncoding("ISO-8859-1");
-            string contenJson = File.ReadAllText(fullPath,codification);
+            string contenJson = File.ReadAllText(fullPath);
             List<T> listObject;
             
             try

@@ -25,6 +25,16 @@ namespace Presentation.View.Trivia
                 Console.WriteLine("Opcion Invalida");
         }
 
+        public void Vuelta()
+        {
+			var categoryInput = ShowCategory();
+
+			if (Enum.TryParse(categoryInput, out Category category))
+				StartTrivia(category);
+			else
+				Console.WriteLine("Opcion Invalida");
+		}
+	
         private void StartTrivia(Category category)
         {
             var listaPreguntas = _questionService.ListQuestionByCategory(category);
@@ -79,27 +89,37 @@ namespace Presentation.View.Trivia
         
         private void StartMessage()
         {
-            Console.WriteLine("Bienvedido, Ingresa tu nombre: ");
+            Console.WriteLine("Bienvedido a la trivia de Programación, Ingresa tu nombre: ");
             string nombre = Console.ReadLine();
             Console.WriteLine($"Muy bien {nombre} empecemos la trivia...");
+            Console.WriteLine("Pero recuerda por cada respuesta fallida se descontara un punto!");
         }
 
         private string ShowCategory()
         {
             Console.WriteLine("Ingresa una categoria:");
-            Console.WriteLine("1.- Historia");
-            Console.WriteLine("2.- Programación");
-            var categoryInput = Console.ReadLine();
+            Console.WriteLine("1.- Desarrollo Web");
+            Console.WriteLine("2.- Desarrollo Móvil");
+			Console.WriteLine("3.- Ciencia de Datos");
+			Console.WriteLine("4.- Seguridad Informática");
+			var categoryInput = Console.ReadLine();
             return categoryInput;
         }
 
-        private void ScoreMessage(int  questionCorrect)
+        private void ScoreMessage(int questionCorrect)
         {
-            Console.WriteLine(questionCorrect);
+            Console.WriteLine($"Puntaje final: {questionCorrect}");
             if (questionCorrect >= 3)
-                Console.WriteLine("Has ganado!!");
+                Console.WriteLine("¡Felicitaciones! Has obtenido una excelente puntuación y has ganado la trivia de programación. ¡Eres un experto en el tema! ");
             else
-                Console.WriteLine("Has Perdido :(");
+                Console.WriteLine("Lo siento, no has logrado obtener la puntuación suficiente para ganar la trivia. ¡No te desanimes! Puedes seguir aprendiendo y mejorando!");
+
+            Console.WriteLine("Quieres volverlo a intentar? escribe Si");
+            string continuar= Console.ReadLine();
+			if (continuar == "Si")
+                Vuelta();
+            else
+                Console.WriteLine("Hasta luego, Te espero pronto!");
         }
     }
 }

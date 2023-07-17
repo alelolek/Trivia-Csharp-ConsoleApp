@@ -1,117 +1,169 @@
 [
     {
         "Id": 1,
-        "Description": "�Cu�l de las siguientes civilizaciones construy� las famosas pir�mides de Giza?",
+        "Description": "¿Qué significa CSS?",
         "Category": 1,
         "Answers": [
             {
                 "Id": 1,
-                "IsValid": true,
-                "Description": "Civilizaci�n egipcia"
+                "IsValid": false,
+                "Description": "Computer Style Sheets"
             },
             {
                 "Id": 2,
-                "IsValid": false,
-                "Description": "Civilizaci�n maya"
+                "IsValid": true,
+                "Description": "Cascading Style Sheets"
             },
             {
                 "Id": 3,
                 "IsValid": false,
-                "Description": "Civilizaci�n romana"
+                "Description": "Creative Style Sheets"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Colorful Style Sheets"
             }
         ]
     },
     {
         "Id": 2,
-        "Description": "�Qu� evento hist�rico marc� el fin de la Segunda Guerra Mundial en Europa?",
+        "Description": "¿Cuál es el estándar actual para la estructura de contenido en la web?",
         "Category": 1,
         "Answers": [
             {
                 "Id": 1,
                 "IsValid": false,
-                "Description": "El Desembarco de Normand�a El Desembarco de Normand�a"
+                "Description": "XML"
             },
             {
                 "Id": 2,
-                "IsValid": true,
-                "Description": "La rendici�n de Alemania"
+                "IsValid": false,
+                "Description": "XHTML"
             },
             {
                 "Id": 3,
                 "IsValid": false,
-                "Description": "La ca�da del Muro de Berl�n"
+                "Description": "HTML4"
+            },
+            {
+                "Id": 4,
+                "IsValid": true,
+                "Description": "HTML5"
             }
         ]
     },
     {
         "Id": 3,
-        "Description": "�En qu� a�o tuvo lugar la Revoluci�n Francesa?",
+        "Description": "¿Cuál de los siguientes elementos se utiliza para almacenar datos en el lado del cliente en una aplicación web?",
         "Category": 1,
         "Answers": [
             {
                 "Id": 1,
                 "IsValid": false,
-                "Description": "1776"
+                "Description": "Cookies"
             },
             {
                 "Id": 2,
-                "IsValid": true,
-                "Description": "1789"
+                "IsValid": false,
+                "Description": "Session Storage"
             },
             {
                 "Id": 3,
+                "IsValid": true,
+                "Description": "Local Storage"
+            },
+            {
+                "Id": 4,
                 "IsValid": false,
-                "Description": "1804"
+                "Description": "Cache"
             }
         ]
     },
     {
         "Id": 4,
-        "Description": "�Cu�l de los siguientes l�deres fue el fundador de la Uni�n Sovi�tica?",
+        "Description": "¿Cuál de los siguientes frameworks es utilizado para crear interfaces de usuario en aplicaciones web de una sola página (SPA)?",
         "Category": 1,
         "Answers": [
             {
                 "Id": 1,
-                "IsValid": false,
-                "Description": "Joseph Stalin"
+                "IsValid": true,
+                "Description": "React"
             },
             {
                 "Id": 2,
                 "IsValid": false,
-                "Description": "Nikita Khrushchev"
+                "Description": "Angular"
             },
             {
                 "Id": 3,
-                "IsValid": true,
-                "Description": "Vladimir Lenin"
+                "IsValid": false,
+                "Description": "Vue.js"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Ember.js"
             }
         ]
     },
     {
         "Id": 5,
-        "Description": "�Cu�l de las siguientes civilizaciones antiguas se desarroll� en el valle del r�o Indo?",
+        "Description": "¿Qué lenguaje de programación se utiliza para agregar interactividad a una página web?",
         "Category": 1,
         "Answers": [
             {
                 "Id": 1,
                 "IsValid": true,
-                "Description": "Civilizaci�n del valle del Indo"
+                "Description": "JavaScript"
             },
             {
                 "Id": 2,
                 "IsValid": false,
-                "Description": "Civilizaci�n mesopot�mica"
+                "Description": "Java"
             },
             {
                 "Id": 3,
                 "IsValid": false,
-                "Description": "Civilizaci�n egipcia"
+                "Description": "C#"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "PHP"
             }
         ]
     },
     {
         "Id": 6,
-        "Description": "�Cu�l de los siguientes lenguajes de programaci�n se utiliza com�nmente para el desarrollo de aplicaciones m�viles en iOS?",
+        "Description": "¿Qué es responsive web design (diseño web adaptable)?",
+        "Category": 1,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "Un enfoque de diseño que garantiza que un sitio web se vea igual en todos los navegadores."
+            },
+            {
+                "Id": 2,
+                "IsValid": true,
+                "Description": "Un enfoque de diseño que asegura que un sitio web se adapte y se vea bien en diferentes dispositivos y tamaños de pantalla."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un enfoque de diseño que utiliza una cuadrícula de 12 columnas para organizar el contenido de un sitio web."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un enfoque de diseño que utiliza animaciones y transiciones para mejorar la experiencia del usuario."
+            }
+        ]
+    },
+    {
+        "Id": 7,
+        "Description": "¿Qué lenguaje de programación se utiliza para desarrollar aplicaciones nativas en iOS?",
         "Category": 2,
         "Answers": [
             {
@@ -122,100 +174,476 @@
             {
                 "Id": 2,
                 "IsValid": false,
-                "Description": "C#"
+                "Description": "Kotlin"
             },
             {
                 "Id": 3,
                 "IsValid": true,
                 "Description": "Swift"
-            }
-        ]
-    },
-    {
-        "Id": 7,
-        "Description": "�Qu� protocolo se utiliza para transferir datos desde un servidor web a un navegador web?",
-        "Category": 2,
-        "Answers": [
-            {
-                "Id": 1,
-                "IsValid": true,
-                "Description": "HTTP"
             },
             {
-                "Id": 2,
+                "Id": 4,
                 "IsValid": false,
-                "Description": "FTP"
-            },
-            {
-                "Id": 3,
-                "IsValid": false,
-                "Description": "SMTP"
+                "Description": "Objective-C"
             }
         ]
     },
     {
         "Id": 8,
-        "Description": "�Cu�l de los siguientes es un lenguaje de programaci�n orientado a objetos?",
+        "Description": "¿Cuál de las siguientes herramientas se utiliza para compilar y depurar aplicaciones móviles en Android?",
         "Category": 2,
         "Answers": [
             {
                 "Id": 1,
                 "IsValid": false,
-                "Description": "HTML"
+                "Description": "Xcode"
             },
             {
                 "Id": 2,
-                "IsValid": false,
-                "Description": "SQL"
+                "IsValid": true,
+                "Description": "Android Studio"
             },
             {
                 "Id": 3,
-                "IsValid": true,
-                "Description": "Python"
+                "IsValid": false,
+                "Description": "Visual Studio"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Eclipse"
             }
         ]
     },
     {
         "Id": 9,
-        "Description": "�Qu� es un LOOP en programaci�n?",
+        "Description": "¿Qué es una API RESTful en el contexto del desarrollo móvil?",
         "Category": 2,
         "Answers": [
             {
                 "Id": 1,
                 "IsValid": true,
-                "Description": "Una estructura de control que repite un bloque de c�digo"
+                "Description": "Una interfaz de programación de aplicaciones que utiliza el protocolo REST para permitir la comunicación entre una aplicación móvil y un servidor"
             },
             {
                 "Id": 2,
                 "IsValid": false,
-                "Description": "Un error en el c�digo"
+                "Description": "Un conjunto de reglas y convenciones para el desarrollo de aplicaciones móviles."
             },
             {
                 "Id": 3,
                 "IsValid": false,
-                "Description": "Una funci�n para ingresar datos"
+                "Description": "Un método para emular el comportamiento de una aplicación móvil durante las pruebas de desarrollo."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un servicio web que proporciona información sobre restaurantes y lugares de interés cerca del usuario."
             }
         ]
     },
     {
         "Id": 10,
-        "Description": "�Qu� es Git?",
+        "Description": "¿Cuál de los siguientes frameworks se utiliza para el desarrollo de aplicaciones móviles multiplataforma?",
         "Category": 2,
         "Answers": [
             {
                 "Id": 1,
                 "IsValid": false,
-                "Description": "Un lenguaje de programaci�n"
+                "Description": "Flutter"
             },
             {
                 "Id": 2,
                 "IsValid": true,
-                "Description": "Un sistema de control de versiones"
+                "Description": "React Native"
             },
             {
                 "Id": 3,
                 "IsValid": false,
-                "Description": "Un sistema de gesti�n de bases de datos"
+                "Description": "Xamarin"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Ionic"
+            }
+        ]
+    },
+    {
+        "Id": 11,
+        "Description": "¿Qué es un emulador en el desarrollo móvil?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": false,
+                "Description": "Un dispositivo físico utilizado para probar aplicaciones móviles."
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Una herramienta para depurar errores en aplicaciones móviles."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un conjunto de pruebas automatizadas para garantizar la calidad de una aplicación móvil."
+            },
+            {
+                "Id": 4,
+                "IsValid": true,
+                "Description": "Un software que permite ejecutar aplicaciones móviles en un entorno simulado"
+            }
+        ]
+    },
+    {
+        "Id": 12,
+        "Description": "¿Qué es un APK en el desarrollo de aplicaciones Android?",
+        "Category": 2,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un archivo que contiene el código y los recursos de una aplicación Android, listo para ser instalado en un dispositivo"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un archivo de configuración para la interfaz de usuario en Android."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un formato de archivo para almacenar datos en Android."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un certificado digital utilizado para firmar aplicaciones Android."
+            }
+        ]
+    },
+    {
+        "Id": 13,
+        "Description": "¿Cuál de los siguientes lenguajes de programación es ampliamente utilizado en la ciencia de datos?",
+        "Category": 3,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Python"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Java"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "C++"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Ruby"
+            }
+        ]
+    },
+    {
+        "Id": 14,
+        "Description": "¿Qué es la regresión lineal en el contexto del análisis de datos?",
+        "Category": 3,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un método estadístico utilizado para predecir valores continuos basados en variables independientes"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un algoritmo de aprendizaje automático utilizado para la clasificación."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Una técnica para visualizar datos en un gráfico de barras."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un proceso para normalizar datos antes de realizar análisis."
+            }
+        ]
+    },
+    {
+        "Id": 15,
+        "Description": "¿Qué biblioteca de Python se utiliza comúnmente para el análisis y manipulación de datos?",
+        "Category": 3,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "pandas"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "matplotlib"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "NumPy"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "SciPy"
+            }
+        ]
+    },
+    {
+        "Id": 16,
+        "Description": "¿Qué es el clustering en la ciencia de datos?",
+        "Category": 3,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Una técnica para la clasificación de datos en grupos o clústeres, basada en similitudes entre ellos"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un proceso para eliminar valores atípicos o valores extremos de un conjunto de datos."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Una técnica para visualizar datos en un gráfico de dispersión."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un método para encontrar la mejor función de ajuste a un conjunto de datos."
+            }
+        ]
+    },
+    {
+        "Id": 17,
+        "Description": "¿Qué es una matriz de confusión en el análisis de clasificación?",
+        "Category": 3,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Una matriz utilizada para evaluar la precisión de un modelo de clasificación, mostrando la cantidad de predicciones correctas e incorrectas"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Una matriz que muestra la distribución de datos en un conjunto de datos."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Una matriz utilizada para almacenar valores numéricos en un formato tabular."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Una matriz que muestra la relación entre variables en un conjunto de datos."
+            }
+        ]
+    },
+    {
+        "Id": 18,
+        "Description": "¿Cuál de los siguientes lenguajes de programación se utiliza comúnmente para la clasificación?",
+        "Category": 3,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Árboles de decisión"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Regresión logística"
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Ambas opciones son correctas"
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Ninguna de las opciones es correcta"
+            }
+        ]
+    },
+    {
+        "Id": 19,
+        "Description": "¿Qué es un ataque de fuerza bruta?",
+        "Category": 4,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un ataque en el que se intentan todas las combinaciones posibles de contraseñas hasta encontrar la correcta"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un ataque que utiliza múltiples computadoras para inundar un sistema con solicitudes y sobrecargarlo."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un ataque en el que se envía un archivo adjunto malicioso por correo electrónico."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un ataque en el que se obtiene acceso no autorizado a un sistema mediante el robo de credenciales."
+            }
+        ]
+    },
+    {
+        "Id": 20,
+        "Description": "¿Qué es un sistema de gestión de intrusiones (IDS) en el contexto de la seguridad informática?",
+        "Category": 4,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un sistema que detecta y previene ataques maliciosos en una red"
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un software que cifra datos confidenciales para protegerlos contra accesos no autorizados."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un programa antivirus que escanea y elimina malware de un sistema."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un sistema que utiliza firewalls para bloquear el tráfico no deseado en una red."
+            }
+        ]
+    },
+    {
+        "Id": 21,
+        "Description": "¿Qué es el phishing?",
+        "Category": 4,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un ataque que utiliza mensajes de correo electrónico fraudulentos para engañar a las personas y obtener información confidencial."
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un ataque en el que se intercepta y se modifica el tráfico de red entre un cliente y un servidor."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un ataque en el que se envía un archivo malicioso por correo electrónico para infectar un sistema."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un ataque que utiliza la fuerza bruta para descifrar contraseñas de usuarios."
+            }
+        ]
+    },
+    {
+        "Id": 22,
+        "Description": "¿Qué es la autenticación de dos factores (2FA) en la seguridad informática?",
+        "Category": 4,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un método que requiere dos formas diferentes de autenticación, como una contraseña y un escaneo de huellas dactilares."
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un método que utiliza un solo factor de autenticación, como una contraseña."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un método que utiliza una combinación de dos contraseñas diferentes para acceder a un sistema."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un método que permite a los usuarios autenticarse utilizando dos dispositivos móviles diferentes."
+            }
+        ]
+    },
+    {
+        "Id": 23,
+        "Description": "¿Qué es un certificado SSL?",
+        "Category": 4,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un archivo que contiene información sobre la identidad de un sitio web y se utiliza para establecer una conexión segura."
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un software utilizado para proteger los datos confidenciales almacenados en un sistema."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un tipo de ataque en el que se modifica el tráfico de red para redirigirlo a un sitio web malicioso."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un sistema utilizado para cifrar y descifrar mensajes para garantizar la confidencialidad de la información transmitida."
+            }
+        ]
+    },
+    {
+        "Id": 24,
+        "Description": "¿Qué es un ataque de denegación de servicio (DDoS)?",
+        "Category": 4,
+        "Answers": [
+            {
+                "Id": 1,
+                "IsValid": true,
+                "Description": "Un ataque en el que se inundan los servidores de un sitio web con solicitudes para dejarlo fuera de servicio."
+            },
+            {
+                "Id": 2,
+                "IsValid": false,
+                "Description": "Un ataque en el que se obtiene acceso no autorizado a un sistema y se realiza una copia de seguridad de los datos."
+            },
+            {
+                "Id": 3,
+                "IsValid": false,
+                "Description": "Un ataque en el que se envían mensajes de correo electrónico no deseados y masivos para bloquear una cuenta de correo electrónico."
+            },
+            {
+                "Id": 4,
+                "IsValid": false,
+                "Description": "Un ataque en el que se utiliza un programa malicioso para controlar remotamente un sistema comprometido."
             }
         ]
     }

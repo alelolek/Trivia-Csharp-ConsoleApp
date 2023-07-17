@@ -4,7 +4,9 @@ namespace CrossCutting.Enum
 {
     public enum Category
     {
-        History = 1 ,
-        Programming = 2
+		DesarrolloWeb = 1 ,
+		DesarrolloMovil = 2,
+        CienciaDeDatos = 3,
+        SeguridadInformatica = 4
     }
 }
