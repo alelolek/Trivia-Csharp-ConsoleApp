@@ -34,6 +34,10 @@ Para ejecutar la Aplicación de Trivia en Consola, sigue estos pasos:
 4. Compila el proyecto para restaurar los paquetes de NuGet y compilar el código.
 5. Ejecuta la aplicación y ¡disfruta jugando a la trivia!
 
+## Demostración Proyecto Scheduly
+
+[Aplicación de Consola C# - Trivia de Programación](https://youtu.be/vefDOPhwoHM)
+
 ## Licencia
 Este proyecto está bajo la [Licencia MIT](https://github.com/alelolek/Trivia-Csharp-ConsoleApp/blob/main/LICENSE.txt).
 
